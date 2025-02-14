@@ -30,10 +30,56 @@ share/python-wheels/
 MANIFEST
 
 # Environments
-.venv
 .env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# mypy
+# IDE and Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Pytest
+.pytest_cache/
+
+# Mypy
 .mypy_cache/
 .dmypy.json
 dmypy.json
+
+# Logs
+_logs/
+*.log
+supervisor_*.log
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Local development configurations
+*.local
+
+# Temporary files
+*.tmp
+*.bak
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Secrets and sensitive information
+*.pem
+*.key
+*.crt
+
+# Project-specific ignores
+_output/
